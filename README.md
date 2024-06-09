@@ -10,6 +10,8 @@ This project is a to-do application built using JavaScript and React. The applic
 - **Bootstrap Integration**: Bootstrap is used to create a clean and responsive UI, ensuring the application looks good on all devices.
 - **Task Management**: Users can add new tasks, view a list of tasks, and delete tasks as needed, making the application robust and functional.
 
+![Screenshot 2024-06-09 at 3 29 02 PM (2)](https://github.com/ChanderMohan27/to-do-list/assets/128381758/2bef4178-3b9c-4522-9b2e-247fb74fe852)
+
 
 ## Components
 
