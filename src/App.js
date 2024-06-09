@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component, useState } from "react";
+import Headers from "./Component/Headers"
+import Cards from "./Component/Cards"
+import Todos from "./Component/Todos";
+import Footer from "./Component/Footer";
+import Add from "./Component/Add";
 
 function App() {
+
+  const pageStyle = {
+    backgroundColor: 'gray', // Set your desired background color
+    height: '100vh',
+    margin: 0,
+    padding: 0};
+
+  
+  
+  
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Headers title = "To Do List" /> 
+    <Todos />
+    <Footer />
+    
+    
+
+
+        
+    </>
   );
 }
 

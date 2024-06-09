@@ -1,0 +1,12 @@
+/* Add this CSS to your styles.css or a similar stylesheet */
+.todo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between the cards as needed */
+  }
+  
+  .todo-item {
+    flex: 1 1 300px; /* Adjust the flex-basis value to control the width of each card */
+    max-width: 300px; /* Ensure that each card doesn't exceed the desired width */
+  }
+  
